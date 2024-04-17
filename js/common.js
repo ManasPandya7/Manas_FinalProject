@@ -1,0 +1,1 @@
+console.log("%cHi class! \n%cIt's time for media queries", "font-size: 4em;", "font-size: 2em;");

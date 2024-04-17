@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 75px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 64px; 
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin: 20px auto;
+}
+
+nav li {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.product-section, .category-section{
+    display: inline-block;
+    width: fit-content;
+    padding: 20px;
+}
+
+.product-section{
+    height: 100%;
+}
+
+.product-container{
+    width: 90%;
+    margin: auto;
+}
+
+.m-auto{
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero-image {
+    width: 80%; 
+    margin-top: 15px; 
+}
+
+.featured-categories, .collections {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.featured-categories ul, .collections ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.featured-categories ul li, .collections ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.category-card, .collection-card {
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    display: inline-block;
+}
+
+.category-card img, .collection-card img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+}
+
+.category-card a{
+    height: 100%;
+    display: block;
+}
+
+.about-us {
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px auto;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #101e39;
+    text-decoration: none;
+    transition: color 0.3s ease; /
+}
+
+footer a:hover {
+    color: black; 
+}
+
+.product-section{
+    width: 28%;
+}
+
+.category-section{
+    width: 45%;
+}
